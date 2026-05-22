@@ -1,0 +1,5 @@
+django
+user-agents
+python-dotenv
+whitenoise
+gunicorn

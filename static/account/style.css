@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f3f3f3;
+    font-family: "Segoe UI", sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+/* Wrapper */
+.login-wrapper {
+    width: 100%;
+    max-width: 440px;
+}
+
+/* Main Card */
+.login-card {
+    background: white;
+    padding: 45px;
+    margin-bottom: 16px;
+}
+
+/* Fake Logo */
+.brand {
+    display: grid;
+    grid-template-columns: repeat(2, 22px);
+    gap: 4px;
+    margin-bottom: 20px;
+}
+
+.brand-box {
+    width: 22px;
+    height: 22px;
+}
+
+.blue {
+    background: #0078d4;
+}
+
+.green {
+    background: #107c10;
+}
+
+.orange {
+    background: #ff8c00;
+}
+
+.red {
+    background: #e81123;
+}
+
+/* Email */
+.email-display {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+/* Title */
+.title {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #1b1b1b;
+}
+
+/* Input */
+.custom-input {
+    border: none;
+    border-bottom: 1px solid #666;
+    border-radius: 0;
+    padding-left: 0;
+    box-shadow: none !important;
+}
+
+.custom-input:focus {
+    border-bottom: 2px solid #0078d4;
+}
+
+/* Links */
+.options a {
+    text-decoration: none;
+    color: #0078d4;
+    font-size: 14px;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
+
+/* Button */
+.sign-btn {
+    background: #0078d4;
+    border: none;
+    color: white;
+    border-radius: 0;
+
+    width: 130px;
+    height: 34px;
+
+    font-size: 15px;
+}
+
+.sign-btn:hover {
+    background: #006cbe;
+    color: white;
+}
+
+/* Bottom Card */
+.extra-options {
+    background: white;
+    padding: 14px 20px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.extra-options:hover {
+    background: #f8f8f8;
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+
+    body {
+        /* background: rgb(236, 236, 236); */
+        background: #f3f3f3;
+        align-items: flex-start;
+    }
+
+    .login-card {
+        padding: 25px;
+        margin: 25px;
+        margin-top: 100px;
+        /* box-shadow: none !important; */
+        /* background-color: #e81123; */
+    }
+
+    .extra-options {
+        box-shadow: none !important;
+    }
+}
