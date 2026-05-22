@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         form.submit();
 
-      }, 1000);
+      }, 200);
 
     });
 
